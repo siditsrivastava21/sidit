@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout Design</title>
+    <style>
+      .main-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-top:3px solid black;
+        border-left: 3px solid black;
+        border-bottom: 13px solid black;
+        border-right: 7px solid black;
+
+      }
+
+      .sub-section {
+        text-align: center;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 0px grey;
+        /* margin-bottom: 15px; */
+      }
+
+      .founder_pic {
+        width: 330px;
+        height: 300px;
+        border-radius: 5px;
+        object-fit: cover;
+
+      }
+      .information {
+        display: block;
+      }
+
+      .information img{
+        width: 10vh;
+        margin-bottom:10px ;
+        /* background-color: blue; */
+      }
+
+      p {
+        color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <!-- <div> -->
+      <div class="main-section">
+        <div class="sub-section">
+          <img
+            class="founder_pic"
+            src="./image/paytm_founder_ceo_img.png"
+            alt="paytm_founder_img"
+          />
+          <div class="information">
+            <!-- <h5>
+              Vijay Shekhar Sharma
+              <p>Founder & CEO</p>
+              <img src="./image/Paytm-logo.png" alt ="paytm_Logo"/>
+            </h5> -->
+            <h5>Vijay Shekhar Sharma <p>Founder & CEO </p><img src="./image/Paytm_logo.jpg" alt ="paytm_Logo"/></h5>
+            
+          </div>
+        </div>
+        <div class="sub-section">
+          <img
+            class="founder_pic"
+            src="./image/cred_founder_img.png"
+            alt="cred_founder_img"
+          />
+          <div class="information">
+            <h5>
+              Kunal Shah
+              <p>Founder</p>
+              <img src ="./image/cred_logo.png" alt ="cred_logo"/>
+            </h5>
+          </div>
+        </div>
+        <div class="sub-section">
+          <img
+            class="founder_pic"
+            src="./image/pine_labs_ceo_img.png"
+            alt="pine_labs_CEO_img"
+          />
+          <div class="information">
+            <h5>
+              Amrish Rau
+              <p>CEO</p>
+              <img src="./image/pine_labs_logo.png" alt="pine_labs_logo" />
+            </h5>
+          </div>
+        </div>
+        <div class="sub-section">
+          <img class="founder_pic" src="./image/instamojo_ceo_img.png" alt="" />
+          <div class="information">
+            <h5>
+              Sampad Swain
+              <p>Co-Founder & CEO</p>
+              <img src="./image/instamojo-logo.webp" alt="instamojo-logo" />
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
